@@ -29,3 +29,5 @@ $('body').on('click', '[editable]', function(event) {
 
 	$element.remove();
 });
+
+console.log('world')
