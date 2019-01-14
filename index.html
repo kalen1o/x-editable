@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	
+	<title>x-editable</title>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>x-editable</h1>
+		</div>
+
+		<ul class="list-group">
+			<li class="list-group-item">
+				<strong>Firstname:</strong> <span editable="text">John</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Lastname:</strong> <a href="" editable="text"></a>
+			</li>
+			<li class="list-group-item">
+				<strong>Email:</strong> <span editable="email">john.@mail.com</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Password:</strong> <span editable="password">11111111</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Age:</strong> <span editable="number">10</span>
+			</li>
+		</ul>
+
+		<table class="table table-hover">
+			<thead>
+				<th>Firstname</th>
+				<th>Lastname</th>
+			</thead>
+			<tr>
+				<td>
+					<span editable="text">John</span>
+				</td>
+				<td>
+					<span editable="text">Doe</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span editable="text">Jahn</span>
+				</td>
+				<td>
+					<span editable="text">Doe</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<script src="./js/index.js"></script>
+</body>
+</html>
