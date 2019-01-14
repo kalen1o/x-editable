@@ -31,3 +31,4 @@ $('body').on('click', '[editable]', function(event) {
 });
 
 console.log('world')
+console.log('hello');
