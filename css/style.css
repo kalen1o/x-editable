@@ -13,3 +13,9 @@
 	font-style: italic;
 	color: #dd1144;
 }
+button {
+	margin-left: 5px;
+}
+td {
+	width: 50%;
+}
